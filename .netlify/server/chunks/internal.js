@@ -554,7 +554,7 @@ const options = {
   root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce, env }) => '<!doctype html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<title>Portal Mixou</title>\n		<link rel="icon" href="/src/lib/favicon.png" />\n\n		<!-- Bootstrap icons-->\n		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"><\/script>\n		<link\n			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"\n			rel="stylesheet"\n		/>\n\n		<link\n			href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"\n			rel="stylesheet"\n		/>\n		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" />\n		<!-- Core theme CSS (includes Bootstrap)-->\n		<link href="/src/lib/main.css" rel="stylesheet" />\n		' + head + '\n	</head>\n\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n",
+    app: ({ head, body, assets: assets2, nonce, env }) => '<!doctype html>\n<html lang="en"\n	<head>\n		<meta charset="utf-8" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<title>Portal Mixou</title>\n		<link rel="icon" href="/static/favicon.png" />\n\n		<!-- Bootstrap icons-->\n		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"><\/script>\n		<link\n			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"\n			rel="stylesheet"\n		/>\n		<!-- Google fonts-->\n		<!-- \n	<link rel="preconnect" href="https://fonts.gstatic.com" />\n\n	<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"\n		rel="stylesheet" />\n	<link\n		href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"\n		rel="stylesheet" /> -->\n\n		<link\n			href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"\n			rel="stylesheet"\n		/>\n		<!-- novas fontes -->\n		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" />\n		<!-- Core theme CSS (includes Bootstrap)-->\n		<link href="/src/styles/main.css" rel="stylesheet" />\n		' + head + '\n	</head>\n\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\nit.body%</div>\n</body>\n\n</html>/body>\n\n</html>",
     error: ({ status, message }) => '<!doctype html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
@@ -626,7 +626,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "1jrckqb"
+  version_hash: "gyl06z"
 };
 async function get_hooks() {
   return {};

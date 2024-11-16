@@ -48,7 +48,7 @@
 			<div class="col-lg-6">
 				<!-- Mashead text and app badges-->
 				<div class="mb-5 mb-lg-0 text-center text-lg-start">
-					<h1 class="display-1 lh-1 mb-3">Portal Mixou.</h1>
+					<h1 class="display-1 lh-1 mb-3">Portal Mixou</h1>
 					<p class="lead fw-normal text-muted mb-5">
 						Gerencie sua escola de forma fácil, intuitiva e prática!
 					</p>
@@ -82,8 +82,8 @@
 				<img src="/isometric/undraw_online_test_re_kyfx.svg" alt="" width="100%" height="100%" />
 			</div>
 			<div class="col-lg-8">
-				<h2 class="display-4 lh-1 mb-4">Simplifique a gestão da sua escola</h2>
-				<p class="lead fw-normal text-muted mb-5 mb-lg-0">
+				<h2 class="display-4 lh-1 my-4">Simplifique a gestão da sua escola</h2>
+				<p class="lead fw-normal text-muted mb-lg-0">
 					O Portal Mixou é uma plataforma desenvolvida para atender as necessidades de escolas,
 					cursinhos, cursos de idiomas e reforço. Oferecemos uma solução intuitiva e prática para
 					gerenciar todos os aspectos do seu negócio.
@@ -93,7 +93,7 @@
 						href={whatsappGroupLink}
 						target="_blank"
 						rel="noopener noreferrer"
-						class="btn btn-secondary mt-4">Quero receber acesso a versão beta</a
+						class="btn btn-secondary mt-3">Quero receber acesso a versão beta</a
 					>
 				</div>
 			</div>
@@ -112,7 +112,7 @@
 						<i class="bi-people icon-feature text-secondary d-block mb-3"></i>
 						<h3 class="font-alt">Gestão de Pessoas</h3>
 						<p class="text-muted mb-0">
-							Administre professores, alunos e administradores de forma prática.
+							Gerenciamento de professores, alunos e administradores de forma prática.
 						</p>
 					</div>
 				</div>
@@ -131,8 +131,8 @@
 				<!-- Dashboard -->
 				<div class="col-lg-4 col-md-6 mb-5">
 					<div class="text-center">
-						<i class="bi-speedometer2 icon-feature text-secondary d-block mb-3"></i>
-						<h3 class="font-alt">Dashboard</h3>
+						<i class="bi-graph-up icon-feature text-secondary d-block mb-3"></i>
+						<span class="h3 font-alt">Dashboard</span><br /> <span>(Em breve)</span>
 						<p class="text-muted mb-0">Acompanhe o desempenho da sua escola em tempo real.</p>
 					</div>
 				</div>
@@ -142,14 +142,16 @@
 					<div class="text-center">
 						<i class="bi-layers icon-feature text-secondary d-block mb-3"></i>
 						<h3 class="font-alt">Gestão de Turmas</h3>
-						<p class="text-muted mb-0">Organize e gerencie suas turmas de maneira eficiente.</p>
+						<p class="text-muted mb-0">
+							Crie turmas para organizar todos os horários e conteúdos dos alunos e professores.
+						</p>
 					</div>
 				</div>
 
 				<!-- Arquivos e Atividades -->
 				<div class="col-lg-4 col-md-6 mb-5">
 					<div class="text-center">
-						<i class="bi-folder icon-feature text-secondary d-block mb-3"></i>
+						<i class="bi-file-text icon-feature text-secondary d-block mb-3"></i>
 						<h3 class="font-alt">Atividades</h3>
 						<p class="text-muted mb-0">Compartilhe materiais e organize as tarefas escolares.</p>
 					</div>
@@ -171,16 +173,7 @@
 					<div class="text-center">
 						<i class="bi-shield-lock icon-feature text-secondary d-block mb-3"></i>
 						<h3 class="font-alt">Segurança</h3>
-						<p class="text-muted mb-0">Proteção de dados com as melhores práticas de segurança.</p>
-					</div>
-				</div>
-
-				<!-- Calendário Acadêmico (Em breve) -->
-				<div class="col-lg-4 col-md-6 mb-5">
-					<div class="text-center">
-						<i class="bi-calendar icon-feature text-secondary d-block mb-3"></i>
-						<span class="h3 font-alt">Calendário Acadêmico</span><br /> <span>(Em breve)</span>
-						<p class="text-muted mb-0">Planeje e acompanhe o calendário letivo com facilidade.</p>
+						<p class="text-muted mb-0">Proteção de dados com o máximo de segurança conhecido.</p>
 					</div>
 				</div>
 
@@ -190,8 +183,17 @@
 						<i class="bi-whatsapp icon-feature text-secondary d-block mb-3"></i>
 						<h3 class="font-alt">Comunidade no WhatsApp</h3>
 						<p class="text-muted mb-0">
-							Participe da nossa comunidade de usuários betas para suporte e feedbacks.
+							Participe da nossa comunidade de usuários para suporte e feedbacks.
 						</p>
+					</div>
+				</div>
+
+				<!-- Calendário Acadêmico (Em breve) -->
+				<div class="col-lg-4 col-md-12 mb-5">
+					<div class="text-center">
+						<i class="bi-calendar icon-feature text-secondary d-block mb-3"></i>
+						<span class="h3 font-alt">Calendário Acadêmico</span><br /> <span>(Em breve)</span>
+						<p class="text-muted mb-0">Planeje e acompanhe o calendário letivo com facilidade.</p>
 					</div>
 				</div>
 			</div>
@@ -204,8 +206,8 @@
 	<div class="container px-5">
 		<div class="row gx-5">
 			<div class="col-lg-8">
-				<h2 class="display-4 lh-1 mb-4">Comunidade Exclusiva</h2>
-				<p class="lead fw-normal text-muted mb-5 mb-lg-0">
+				<h2 class="display-4 lh-1 mb-4">Comunidade exclusiva</h2>
+				<p class="lead fw-normal text-muted">
 					Conecte-se com outros gestores e faça parte de um grupo exclusivo no WhatsApp, onde vocês
 					podem compartilhar insights, tirar dúvidas e receber notificações das novas versões do
 					Portal Mixou em primeira mão.
@@ -214,7 +216,7 @@
 					href={whatsappGroupLink}
 					target="_blank"
 					rel="noopener noreferrer"
-					class="btn btn-secondary mt-4">Participar da comunidade</a
+					class="btn btn-secondary mt-3">Participar da comunidade</a
 				>
 			</div>
 			<div class="col-lg-4">
@@ -232,10 +234,10 @@
 				<img src="/isometric/undraw_scrum_board_re_wk7v.svg" alt="" width="100%" height="100%" />
 			</div>
 			<div class="col-lg-8">
-				<div class="h2 fs-1 mb-4">
+				<div class="h2 fs-1 my-4">
 					<h2 class="display-4 lh-1 mb-4">Versão BETA</h2>
 
-					<p class="lead fw-normal text-muted mb-5 mb-lg-0">
+					<p class="lead fw-normal text-muted">
 						Junte-se à versão beta e ajude a moldar o futuro da gestão escolar com feedbacks e
 						sugestões de novas funcionalidades.
 					</p>
@@ -244,7 +246,7 @@
 					href={whatsappGroupLink}
 					target="_blank"
 					rel="noopener noreferrer"
-					class="btn btn-secondary mt-4">Acesso a versão BETA</a
+					class="btn btn-secondary mt-3">Acesso a versão BETA</a
 				>
 			</div>
 		</div>
@@ -256,11 +258,18 @@
 	<div class="container px-5">
 		<div class="text-white-50 small">
 			<div class="mb-2">&copy; Portal Mixou 2024. All Rights Reserved.</div>
-			<!-- <span>Privacy</span> -->
-			<!-- <span class="mx-1">&middot;</span> -->
-			<!-- <a href="#!">Terms</a>
+			<a href={wppLinkDeveloper} target="_blank" rel="noopener noreferrer" class="text-white-50"
+				>Contato de dúvidas</a
+			>
+
 			<span class="mx-1">&middot;</span>
-			<a href="#!">FAQ</a> -->
+			<a href={whatsappGroupLink} target="_blank" rel="noopener noreferrer" class="text-white-50"
+				>Entrar no grupo da comunidade</a
+			>
+			<span class="mx-1">&middot;</span>
+			<p class="mb-2">
+				Contato: <a href="mailto:mixoudev@gmail.com" class="text-white-50">mixoudev@gmail.com</a>
+			</p>
 		</div>
 	</div>
 </footer>

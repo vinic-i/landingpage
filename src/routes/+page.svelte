@@ -260,18 +260,18 @@
 	<div class="container px-5">
 		<div class="text-white-50 small">
 			<div class="mb-2">&copy; Portal Mixou 2024. All Rights Reserved.</div>
-			<a href={wppLinkDeveloper} target="_blank" rel="noopener noreferrer" class="text-white-50"
+			<!-- <a href={wppLinkDeveloper} target="_blank" rel="noopener noreferrer" class="text-white-50"
 				>Contato de dúvidas</a
-			>
+			> -->
 
-			<span class="mx-1">&middot;</span>
+			<!-- <span class="mx-1">&middot;</span> -->
 			<a href={whatsappGroupLink} target="_blank" rel="noopener noreferrer" class="text-white-50"
 				>Entrar no grupo da comunidade</a
 			>
 			<span class="mx-1">&middot;</span>
-			<p class="mb-2">
-				Contato: <a href="mailto:mixoudev@gmail.com" class="text-white-50">mixoudev@gmail.com</a>
-			</p>
+			<span class="mb-2">
+				Contato: mixoudev@gmail.com
+			</span>
 		</div>
 	</div>
 </footer>

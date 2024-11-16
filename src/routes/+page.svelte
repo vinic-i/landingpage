@@ -27,7 +27,7 @@
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#community">Comunidade</a></li>
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#beta">BETA</a></li>
 			</ul>
-			<a
+			<!-- <a
 				href={wppLinkDeveloper}
 				target="_blank"
 				rel="noopener noreferrer"
@@ -37,7 +37,7 @@
 					<i class="bi-chat-text-fill me-2"></i>
 					<span class="small">Dúvidas com desenvolvedor</span>
 				</span>
-			</a>
+			</a> -->
 		</div>
 	</div>
 </nav>
@@ -49,15 +49,19 @@
 				<!-- Mashead text and app badges-->
 				<div class="mb-5 mb-lg-0 text-center text-lg-start">
 					<h1 class="display-1 lh-1 mb-3">Portal Mixou</h1>
-					<p class="lead fw-normal text-muted mb-5">
-						Gerencie sua escola de forma fácil, intuitiva e prática!
+					<p>
+						<span class="lead fw-normal text-muted mb-5">
+							Gerencie sua escola de forma fácil, intuitiva e prática!
+						</span>
+						<br />
+						<span class="text-muted">Lançamento 30/11/2024</span>
 					</p>
 					<div class="d-flex flex-column flex-lg-row align-items-center">
 						<a
 							href={whatsappGroupLink}
 							target="_blank"
 							rel="noopener noreferrer"
-							class="btn btn-primary">Quero participar da versão beta</a
+							class="btn btn-primary">Quero participar da versão BETA</a
 						>
 					</div>
 				</div>
@@ -88,14 +92,12 @@
 					cursinhos, cursos de idiomas e reforço. Oferecemos uma solução intuitiva e prática para
 					gerenciar todos os aspectos do seu negócio.
 				</p>
-				<div class="w-100 text-end">
-					<a
-						href={whatsappGroupLink}
-						target="_blank"
-						rel="noopener noreferrer"
-						class="btn btn-secondary mt-3">Quero receber acesso a versão beta</a
-					>
-				</div>
+				<a
+					href={whatsappGroupLink}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="btn btn-secondary mt-3">Quero receber acesso a versão BETA</a
+				>
 			</div>
 		</div>
 	</div>
@@ -238,7 +240,7 @@
 					<h2 class="display-4 lh-1 mb-4">Versão BETA</h2>
 
 					<p class="lead fw-normal text-muted">
-						Junte-se à versão beta e ajude a moldar o futuro da gestão escolar com feedbacks e
+						Junte-se à versão BETA e ajude a moldar o futuro da gestão escolar com feedbacks e
 						sugestões de novas funcionalidades.
 					</p>
 				</div>

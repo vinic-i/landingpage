@@ -54,7 +54,7 @@
 							Gerencie sua escola de forma fácil, intuitiva e prática!
 						</span>
 						<br />
-						<span class="text-muted">Lançamento 30/11/2024</span>
+						<span class="text-muted">Lançamento no final de Dezembro</span>
 					</p>
 					<div class="d-flex flex-column flex-lg-row align-items-center">
 						<a

@@ -27,7 +27,7 @@
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#features">Funcionalidades</a></li>
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#community">Comunidade</a></li>
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#beta">BETA</a></li>
-				<li class="nav-item"><a class="nav-link me-lg-3" href="https://escola-mixou.netlify.app/owner/eyJ0eXBlIjoibyJ9">Começar</a></li>
+				<li class="nav-item"><a class="nav-link me-lg-3" href="https://escola-mixou.netlify.app/owner">Começar</a></li>
 				<!-- <div class={`dropdown ${dropdown ? 'show' : ''}`}>
 					<button
 						class="btn btn-secondary dropdown-toggle"

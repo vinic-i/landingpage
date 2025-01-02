@@ -27,7 +27,7 @@
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#features">Funcionalidades</a></li>
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#community">Comunidade</a></li>
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#beta">BETA</a></li>
-				<li class="nav-item"><a class="nav-link me-lg-3" href="https://escola-mixou.netlify.app/owner">Começar</a></li>
+				<a class="btn btn-primary" href="https://escola-mixou.netlify.app/owner">Começar agora</a>
 				<!-- <div class={`dropdown ${dropdown ? 'show' : ''}`}>
 					<button
 						class="btn btn-secondary dropdown-toggle"
@@ -79,11 +79,8 @@
 						<span class="text-muted">Lançamento no final de Dezembro</span>
 					</p>
 					<div class="d-flex flex-column flex-lg-row align-items-center">
-						<a
-							href={whatsappGroupLink}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="btn btn-primary">Quero participar da versão BETA</a
+						<a class="btn btn-primary" href="https://escola-mixou.netlify.app/owner"
+							>Começar agora</a
 						>
 					</div>
 				</div>

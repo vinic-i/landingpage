@@ -1,4 +1,5 @@
 <script>
+	let dropdown = false;
 	// Substitua pelo código do grupo do WhatsApp
 	const whatsappGroupLink = 'https://chat.whatsapp.com/B7mzIA5l2evKULxZRG3EfO';
 	const wppLinkDeveloper =
@@ -26,6 +27,27 @@
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#features">Funcionalidades</a></li>
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#community">Comunidade</a></li>
 				<li class="nav-item"><a class="nav-link me-lg-3" href="#beta">BETA</a></li>
+				<li class="nav-item"><a class="nav-link me-lg-3" href="https://escola-mixou.netlify.app/owner/eyJ0eXBlIjoibyJ9">Começar</a></li>
+				<!-- <div class={`dropdown ${dropdown ? 'show' : ''}`}>
+					<button
+						class="btn btn-secondary dropdown-toggle"
+						type="button"
+						id="dropdownMenuButton"
+						data-toggle="dropdown"
+						aria-haspopup="true"
+						aria-expanded={dropdown}
+						on:click={() => (dropdown = !dropdown)}
+					>
+						Entrar no sistema
+					</button>
+
+					<div class={`dropdown-menu ${dropdown ? 'show' : ''}`} aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="https://owner-mixou.netlify.app/"
+							>Acesso do proprietário</a
+						>
+						<a class="dropdown-item" href="https://escola-mixou.netlify.app/">Acesso comunidade escolar</a>
+					</div>
+				</div> -->
 			</ul>
 			<!-- <a
 				href={wppLinkDeveloper}
@@ -269,9 +291,7 @@
 				>Entrar no grupo da comunidade</a
 			>
 			<span class="mx-1">&middot;</span>
-			<span class="mb-2">
-				Contato: mixoudev@gmail.com
-			</span>
+			<span class="mb-2"> Contato: mixoudev@gmail.com </span>
 		</div>
 	</div>
 </footer>

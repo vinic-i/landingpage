@@ -76,7 +76,7 @@
 							Gerencie sua escola de forma fácil, intuitiva e prática!
 						</span>
 						<br />
-						<span class="text-muted">Lançamento no final de Dezembro</span>
+						<!-- <span class="text-muted">Lançamento no final de Dezembro</span> -->
 					</p>
 					<div class="d-flex flex-column flex-lg-row align-items-center">
 						<a class="btn btn-primary" href="https://escola-mixou.netlify.app/owner"
